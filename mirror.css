@@ -1,0 +1,34 @@
+.ad-break,
+.ad-page-rail,
+.ad-placement,
+.adsterra-code,
+[aria-label="Advertisement"] {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+
+select.language-select {
+  min-width: 4.75rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  background: transparent;
+  color: inherit;
+  padding: 0.5rem 1.8rem 0.5rem 0.75rem;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+html[lang="de"] .home-preview::before { content: "Draft-Tafel"; }
+html[lang="ja"] .home-preview::before { content: "ドラフトボード"; }
+html[lang="pt"] .home-preview::before { content: "Quadro do draft"; }
+html[lang="es"] .home-preview::before { content: "Tablero del draft"; }
+html[lang="fr"] .home-preview::before { content: "Tableau de draft"; }
+html[lang="it"] .home-preview::before { content: "Tabellone del draft"; }
+html[lang="tr"] .home-preview::before { content: "Draft panosu"; }
+html[lang="zh-CN"] .home-preview::before { content: "选秀板"; }
